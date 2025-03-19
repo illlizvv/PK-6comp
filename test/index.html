@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест по сбору и формализации требований</title>
+    <!--Подключаем CSS -->
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+<div class="form-container">
+    <h1>Тест по сбору и формализации требований</h1>
+    <form id="quiz-form">
+        <!-- Область: Сбор информации -->
+        <div class="question-block">
+            <h2>1. Область: Сбор информации (выявление и анализ потребностей)</h2>
+            <div class="question">
+                <p>1. Что является основным источником информации для сбора требований заказчика?</p>
+                <label><input type="radio" name="q1" value="a"> a) Документация конкурентов</label>
+                <label><input type="radio" name="q1" value="b"> b) Интервью с заинтересованными сторонами</label>
+                <label><input type="radio" name="q1" value="c"> c) Личные предположения разработчика</label>
+                <label><input type="radio" name="q1" value="d"> d) Открытые данные в интернете</label>
+            </div>
+            <div class="question">
+                <p>2. Какой метод сбора требований предполагает прямое общение с заказчиком?</p>
+                <label><input type="radio" name="q2" value="a"> a) Анализ документов</label>
+                <label><input type="radio" name="q2" value="b"> b) Наблюдение</label>
+                <label><input type="radio" name="q2" value="c"> c) Интервью</label>
+                <label><input type="radio" name="q2" value="d"> d) Мозговой штурм</label>
+            </div>
+            <div class="question">
+                <p>3. Какие из перечисленных методов лучше всего подходят для выявления скрытых требований заказчика?</p>
+                <label><input type="radio" name="q3" value="a"> a) Анкетирование и интервью</label>
+                <label><input type="radio" name="q3" value="b"> b) Наблюдение за рабочими процессами</label>
+                <label><input type="radio" name="q3" value="c"> c) Анализ конкурентов</label>
+                <label><input type="radio" name="q3" value="d"> d) Изучение технической документации</label>
+            </div>
+            <div class="question">
+                <p>4. Вы столкнулись с ситуацией, когда заказчик не может четко сформулировать свои требования. Какой подход вы выберете для уточнения информации?</p>
+                <label><input type="radio" name="q4" value="a"> a) Проведение серии интервью с использованием открытых вопросов</label>
+                <label><input type="radio" name="q4" value="b"> b) Разработка прототипа на основе предположений</label>
+                <label><input type="radio" name="q4" value="c"> c) Отказ от проекта из-за нечеткости требований</label>
+                <label><input type="radio" name="q4" value="d"> d) Использование стандартных решений без учета мнения заказчика</label>
+            </div>
+        </div>
+
+        <!-- Область: Формализация требований -->
+        <div class="question-block">
+            <h2>2. Область: Формализация требований (документирование и структурирование)</h2>
+            <div class="question">
+                <p>5. Что такое "требование" в контексте разработки проекта?</p>
+                <label><input type="radio" name="q5" value="a"> a) Пожелание заказчика</label>
+                <label><input type="radio" name="q5" value="b"> b) Формализованная потребность пользователя или системы</label>
+                <label><input type="radio" name="q5" value="c"> c) Идея разработчика</label>
+                <label><input type="radio" name="q5" value="d"> d) Техническое задание</label>
+            </div>
+            <div class="question">
+                <p>6. Какой инструмент чаще всего используется для документирования требований?</p>
+                <label><input type="radio" name="q6" value="a"> a) Таблицы Excel</label>
+                <label><input type="radio" name="q6" value="b"> b) Текстовые редакторы</label>
+                <label><input type="radio" name="q6" value="c"> c) Системы управления требованиями (например, Jira, Trello)</label>
+                <label><input type="radio" name="q6" value="d"> d) Графические редакторы</label>
+            </div>
+            <div class="question">
+                <p>7. Что такое "пользовательская история" (user story)?</p>
+                <label><input type="radio" name="q7" value="a"> a) Описание функциональности с точки зрения пользователя</label>
+                <label><input type="radio" name="q7" value="b"> b) Техническое описание системы</label>
+                <label><input type="radio" name="q7" value="c"> c) Отчет об ошибках</label>
+                <label><input type="radio" name="q7" value="d"> d) План разработки</label>
+            </div>
+            <div class="question">
+                <p>8. Какой из перечисленных этапов является частью процесса формализации требований?</p>
+                <label><input type="radio" name="q8" value="a"> a) Сбор информации</label>
+                <label><input type="radio" name="q8" value="b"> b) Разработка прототипа</label>
+                <label><input type="radio" name="q8" value="c"> c) Тестирование системы</label>
+                <label><input type="radio" name="q8" value="d"> d) Написание кода</label>
+            </div>
+        </div>
+
+        <!-- Область: Анализ и управление требованиями -->
+        <div class="question-block">
+            <h2>3. Область: Анализ и управление требованиями (оценка и контроль)</h2>
+            <div class="question">
+                <p>9. Что из перечисленного является примером нефункционального требования?</p>
+                <label><input type="checkbox" name="q9" value="a"> a) Система должна поддерживать 1000 одновременных пользователей</label>
+                <label><input type="checkbox" name="q9" value="b"> b) Система должна иметь возможность авторизации через социальные сети</label>
+                <label><input type="checkbox" name="q9" value="c"> c) Система должна предоставлять отчеты в формате PDF</label>
+                <label><input type="checkbox" name="q9" value="d"> d) Система должна иметь интуитивно понятный интерфейс</label>
+            </div>
+            <div class="question">
+                <p>10. Какие методы используются для приоритизации требований?</p>
+                <label><input type="checkbox" name="q10" value="a"> a) MoSCoW (Must have, Should have, Could have, Won't have)</label>
+                <label><input type="checkbox" name="q10" value="b"> b) Метод ранжирования по стоимости и важности</label>
+                <label><input type="checkbox" name="q10" value="c"> c) Мозговой штурм</label>
+                <label><input type="checkbox" name="q10" value="d"> d) Анализ конкурентов</label>
+            </div>
+        </div>
+
+        <button type="submit">Завершить тест</button>
+    </form>
+    <div id="results" class="results"></div>
+</div>
+<!--Подключаем JS -->
+<script src="style/script.js"></script>
+</body>
+</html>
